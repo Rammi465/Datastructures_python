@@ -11,8 +11,6 @@ int main()
     int result = 10;
     int myInt =  15;
 
-
-
     result += 15;
 
     std::cout << "Sum = " << sum << std::endl;
@@ -25,7 +23,10 @@ int main()
     std::cout << "myInt = " << myInt << std::endl;
     myInt++;
     std::cout << myInt << std::endl;
+    myInt--;
+    std::cout << myInt << std::endl;
     
+
 
    return 0;
 
